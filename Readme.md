@@ -12,3 +12,16 @@
 
 ## mymodule* 
 怎么定义和导入一个module
+
+## myclass* 
+类的定义、调用和权限，继承
+
+## mydic
+字典和列表定义和访问
+
+## myset
+set的定义和性质 
+
+## mylist
+list切片
+
