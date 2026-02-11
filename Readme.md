@@ -29,3 +29,6 @@ list切片
 迭代和迭代器
 ## generator
 列表生成，生成器
+
+## higher_order_function
+高阶函数
