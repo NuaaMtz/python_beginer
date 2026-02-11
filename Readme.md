@@ -44,3 +44,6 @@ list和dict排序
 
 ## higher_order_function
 高阶函数作为函数返回
+
+## lambda
+匿名函数
