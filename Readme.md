@@ -32,3 +32,6 @@ list切片
 
 ## higher_order_function
 高阶函数
+
+## map_reduce
+map 和reduce
