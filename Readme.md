@@ -28,4 +28,4 @@ list切片
 ## myiteration
 迭代和迭代器
 ## generator
-生成器
+列表生成，生成器

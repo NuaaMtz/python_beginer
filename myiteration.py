@@ -19,3 +19,5 @@ for i,value in enumerate(mylist):# 迭代器可以生成索引-元素对
 mydic={'a':'A','b':'B','c':'C'}
 for key,value in mydic.items():
     print(key,value)
+
+

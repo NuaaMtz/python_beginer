@@ -19,3 +19,19 @@ print("###############")
 mylist=[x*x for x in range(1,10) if x%2==0]
 for key,value in enumerate(mylist):
     print(key,value)
+
+## 上述列表生成器都是直接生成整个列表，
+## 并不是一边用一边生成
+mglist=[x*x for x in range(1,10) if x%2==0]# 列表
+mygenerator=(x*x for x in range(1,10)if x%2==0)# 生成器
+print("生成第一个数字",next(mygenerator))
+print("生成第二个数字",next(mygenerator))
+print("生成第三个数字",next(mygenerator))
+
+print("生成第四个数字",next(mygenerator))
+#print("生成第五个数字",next(mygenerator))# 没有第五个，所以抛出StopIteration
+
+# 生成器是可迭代对象
+mygenerator=(x*x for x in range(1,10)if x%2==0)# 生成器
+for x in mygenerator:
+    print(x)
