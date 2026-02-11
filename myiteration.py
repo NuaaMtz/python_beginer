@@ -14,4 +14,8 @@ for i,value in enumerate(mylist):# 迭代器可以生成索引-元素对
 
 
 # 字典的迭代
-# python的循环比C循环抽象都搞，
+# 同时迭代
+# python的循环比C循环抽象都高
+mydic={'a':'A','b':'B','c':'C'}
+for key,value in mydic.items():
+    print(key,value)
