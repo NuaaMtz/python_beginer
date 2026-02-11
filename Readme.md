@@ -38,3 +38,6 @@ map 和reduce
 
 ## filter
 filter
+
+## sorted
+list和dict排序
