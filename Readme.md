@@ -35,3 +35,6 @@ list切片
 
 ## map_reduce
 map 和reduce
+
+## filter
+filter
